@@ -1,0 +1,14 @@
+p{
+    font-size: 1.5rem;
+    color: var(--accent-text-color);
+}
+
+.p--white{
+    color: #fff;
+}
+
+.subtitle{
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: 300;
+}

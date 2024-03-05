@@ -1,0 +1,42 @@
+.button{
+    display: inline-block;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    letter-spacing: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: var(--button-color);
+    border: 1px solid var(--button-border-color);
+    filter: drop-shadow(0px 10px 7.5px rgba(29,37,51,0.09));
+    padding: 1.25rem 2rem;
+    border-radius: 0.5rem;
+    transition: 0.2s ease-in-out;
+}
+
+@media(min-width: 768px){
+    .button{
+        padding: 1.25rem 7rem;
+    }
+}
+
+.button:hover{
+    color: var(--button-color);
+    border: 1px solid var(--button-color);
+    background-color:transparent;
+}
+
+
+
+.button--secondary{
+    font-size: 1.6rem;
+    border: none;
+    padding: .85rem 3.65rem;
+}
+
+
+.button--secondary:hover{
+    border: none;
+    box-shadow: 0px 0px 5px var(--button-color);
+}

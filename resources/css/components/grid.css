@@ -1,0 +1,28 @@
+.wrapper{
+    position: relative;
+    max-width: 98rem;
+    margin: auto;
+    padding: 0 1.5rem;
+}
+
+@media(min-width: 1024px){
+    .wrapper{
+        padding: 0;
+    }
+}
+
+.padding-t70-b50{
+    padding: 7rem 0 5rem 0;
+}
+
+.padding-y-100{
+    padding: 10rem 0;
+}
+
+.padding-t120-b100{
+    padding: 12rem 0 10rem 0;
+}
+
+.padding-t125-b125{
+    padding: 12.5rem 0 12.5rem 0;
+}

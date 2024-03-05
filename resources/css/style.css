@@ -1,0 +1,51 @@
+/*##############################
+############ RESET #############
+##############################*/
+@import url(/resources/css/reset.css);
+
+
+
+/*##############################
+########## TYPOGRAPHY ##########
+##############################*/
+@import url(/resources/css/typograpghy/headings.css);
+@import url(/resources/css/typograpghy/paragraphs.css);
+@import url(/resources/css/typograpghy/links.css);
+
+
+
+/*##############################
+########## COMPONENTS ##########
+##############################*/
+@import url(/resources/css/components/grid.css);
+@import url(/resources/css/components/button.css);
+@import url(/resources/css/components/scroll-to-top.css);
+
+
+
+/*##############################
+########## SECTIONS ##########
+##############################*/
+@import url(/resources/css/sections/header.css);
+@import url(/resources/css/sections/intro.css);
+@import url(/resources/css/sections/editor.css);
+@import url(/resources/css/sections/offer.css);
+@import url(/resources/css/sections/clients.css);
+@import url(/resources/css/sections/tech.css);
+@import url(/resources/css/sections/footer.css);
+
+
+
+:root{
+    --link-group-color: rgba(6, 159, 109, 0.2);
+    --link-group-border-color: rgba(149, 191, 57, 0.5);
+    --link-hover-color: #9ae451;
+    --link-separator-color-header: rgba(169, 161, 161, 0.5);
+    --link-separator-color-footer: #3686d1;
+    --button-color: #95bf39;
+    --button-border-color: #617f1e;
+    --accent--color: #43521d;
+    --accent-text-color: #7c8f8e;
+    --headings-color: #000000;
+    --footer-background-color: #4698e5;
+}

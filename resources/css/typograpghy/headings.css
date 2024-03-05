@@ -1,0 +1,32 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin-bottom: 2rem;
+    line-height: 1;
+}
+
+@media(min-width: 1024px){
+    h1{
+        font-size: 7.8rem;
+        margin-bottom: 0;
+    }
+}
+
+h2{
+    font-size: 2.6rem;
+    color: var(--headings-color);
+    letter-spacing: -1px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+@media(min-width: 768px){
+    h2{
+        font-size: 3.2rem;
+    }
+}
